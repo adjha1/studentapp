@@ -7,7 +7,7 @@ const Register = () => {
             name: e.target.name.value,
             age: e.target.age.value
         }
-        await axios.post('https://studentapp1-w12l.onrender.com', user)
+        await axios.post('https://studentapp1-w12l.onrender.com/users', user)
        alert('User Registered Successfully')
 
     }
