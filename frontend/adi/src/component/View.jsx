@@ -6,7 +6,7 @@ const View = () => {
         viewdata();
     },[])
     const viewdata = async ()=>{
-        const res=await axios.get('http://localhost:9000/users');
+        const res=await axios.get('https://studentapp1-w12l.onrender.com');
         console.log(res);
         setUsers(res.data);
     }
